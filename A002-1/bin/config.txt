@@ -1,0 +1,11 @@
+OUTDIR	./out
+SAMPLE	./sample.lst
+
+# parameters
+spe	mm9
+
+# program
+samtools	/usr/bin/samtools
+bedtools	/usr/bin/bedtools
+homer	/disk4/chipseq/homer/bin
+
