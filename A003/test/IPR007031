@@ -1,0 +1,1037 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Poxvirus VLTF3, late transcription factor (IPR007031) &lt; InterPro &lt; EMBL-EBI</title>
+
+    <meta content="InterPro provides functional analysis of proteins by classifying them into families and predicting domains and important sites. We combine protein signatures from a number of member databases into a single searchable resource, capitalising on their individual strengths to produce a powerful integrated database and diagnostic tool."
+          name="description"/>
+    <meta name="keywords"
+          content="InterPro, interpro, InterProScan, protein, signatures, entry, family, sequence, database, proteins, entries, families, domain, domains, sites, repeats, sequences, annotation, signature, functional, analysis, databases, function, type, types, research, pathways, resource, match, download, GO, relationships, hierarchies, Go terms, sequence analysis, function prediction, Gene Ontology, protein family, protein families, sequence features, automatic annotation, annotation tools, InterPro2GO, UniProt, PROSITE, HAMAP, Pfam, PRINTS, ProDom, SMART, TIGRFAMs, PIRSF, SUPERFAMILY, Gene3D, CATH-Gene3D, CDD, SFLD, MobiDB,  PANTHER, ebi, EBI, bioinformatics, bioinformatic, europe, institute"/>
+
+    <meta name="author" content="InterPro EMBL-EBI"/>
+
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="MobileOptimized" content="width"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+    <!--SP : we can add more in the futur-->
+    <link rel="icon" type="image/x-icon" href="/interpro/favicon.ico"/>
+    <link el="apple-touch-icon-precomposed" sizes="60x60" href="/interpro/resources/images/apple-touch-icon.png"/>
+
+    
+    <link rel="stylesheet" href="//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/libraries/foundation-6/css/foundation.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/css/ebi-global.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="//www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.1/fonts.css" type="text/css" media="all"/>
+
+    
+    
+          
+    
+          
+    
+          
+    
+
+    
+    <link href="/interpro/resources/css/theme-interpro.css" rel="stylesheet" type="text/css" media="all"/>
+    
+    <link href="/interpro/resources/css/jquery.qtip.css" rel="stylesheet" type="text/css" media="all"/>
+    
+    <link href="/interpro/resources/css/interpro.css?v1.0" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/interpro/resources/css/type_colours.css" rel="stylesheet" type="text/css" media="all"/>
+    
+
+    <!-- move Jquery on top to make some other Javascript worked on particular pages e.g. protein-focus-index -->
+
+    <!-- All JavaScript at the bottom, except for Modernizr -->
+    <script src="//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/libraries/modernizr/modernizr.custom.49274.js"></script>
+
+    
+    <script src="/interpro/resources/js/jquery/jquery-1.7.1.min.js" type="text/javascript"  charset="UTF-8"></script>
+    <script src="/interpro/resources/js/jquery/jquery-ui.min.js" type="text/javascript"  charset="UTF-8"></script>
+
+</head>
+<body onload="loaded()"> 
+
+<div id="skip-to">
+    <ul>
+        <li><a href="#content">Skip to main content</a></li>
+        <li><a href="#local-nav">Skip to local navigation</a></li>
+        <li><a href="#global-nav">Skip to EBI global navigation menu</a></li>
+        <li><a href="#global-nav-expanded">Skip to expanded EBI global navigation menu (includes all sub-sections)</a>
+        </li>
+    </ul>
+</div>
+
+<div data-sticky-container>
+    <!-- SP: change data-top-anchor from 180 to 170 to add some space on top of sticky banner (as the EBI top banner padding is removed in our case) -->
+    <div id="local-masthead" data-sticky data-sticky-on="large" data-top-anchor="180" data-btm-anchor="300000">
+
+<header>
+    <div id="global-masthead" class="clearfix">
+        <a href="//www.ebi.ac.uk/" title="Go to the EMBL-EBI homepage"><span class="ebi-logo"></span></a>
+
+        <nav>
+            <div class="row">
+                <ul id="global-nav" class="menu">
+                    <!-- set active class as appropriate -->
+                    <li id="home-mobile"><a href="//www.ebi.ac.uk"></a></li>
+                    <li id="home"><a href="//www.ebi.ac.uk"><i class="icon icon-generic" data-icon="H"></i> EMBL-EBI</a></li>
+                    <li id="services"  class="active"><a href="//www.ebi.ac.uk/services"><i class="icon icon-generic" data-icon="("></i> Services</a></li>
+                    <li id="research"><a href="//www.ebi.ac.uk/research"><i class="icon icon-generic" data-icon=")"></i> Research</a></li>
+                    <li id="training"><a href="//www.ebi.ac.uk/training"><i class="icon icon-generic" data-icon="t"></i> Training</a></li>
+                    <li id="about"><a href="//www.ebi.ac.uk/about"><i class="icon icon-generic" data-icon="i"></i> About us</a></li>
+                    <li id="search">
+                        <a href="#" data-toggle="search-global-dropdown"><i class="icon icon-functional" data-icon="1"></i> <span class="show-for-small-only">Search</span></a>
+                        <div id="search-global-dropdown" class="dropdown-pane" data-dropdown data-options="closeOnClick:true;">
+                            <form id="global-search" name="global-search" action="/ebisearch/search.ebi" method="GET">
+                                <fieldset>
+                                    <div class="input-group">
+                                        <input type="text" name="query" id="global-searchbox" class="input-group-field" placeholder="Search all of EMBL-EBI">
+                                        <div class="input-group-button">
+                                            <input type="submit" name="submit" value="Search" class="button">
+                                            <input type="hidden" name="db" value="allebi" checked="checked">
+                                            <input type="hidden" name="requestFrom" value="global-masthead" checked="checked">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </li>
+                    <li class="float-right show-for-medium embl-selector">
+                        <button class="button float-right" type="button" data-toggle="embl-dropdown">Hinxton</button>
+                        <!-- The dropdown menu will be programatically added by script.js -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div><!-- /global-masthead-->
+
+    <!-- TO KEEP - TEMP - WARNING for NOJAVASCRIPT -->
+    <noscript>
+    <style type="text/css">#domainOrderResults {display:none;}/*remove the AJAX loading icon when noscript*/</style>
+    <div class="local-warning-msg-ban">
+    <img src="/interpro/resources/images/ico_warning.png" alt="warning" title="warning">
+    <p>Your browser does not support JavaScript or you turned off JavaScript options. Some features on this website won't work properly (<a href="http://www.enable-javascript.com/" class="ext">Click here to enable JavaScript</a>).</p>
+    </div>
+    </noscript>
+    <!-- /TO KEEP - TEMP - WARNING for NOJAVASCRIPT -->
+
+    <div class="masthead row">
+
+        <!-- local-title -->
+        <div class="columns medium-7" id="local-title">
+            <h1><a href="/interpro/" title="Back to InterPro homepage"><img src="/interpro/resources/images/logo_interpro_purple_01.png" alt="InterPro logo" /> InterPro</a></h1>
+            <h4>Protein sequence analysis &amp; classification</h4>
+        </div><!-- /local-title -->
+
+
+        <!-- local-title - logo only patterns, see http://frontier.ebi.ac.uk/web/style/patterns -->
+        
+                
+                                               
+        <!-- /local-title -->
+
+        <!-- local-search -->
+        <div class="column medium-5">
+            <form id="ebi_search" action="/interpro/search" method="get">
+                <fieldset>
+                    <div class="input-group margin-bottom-none margin-top-large">
+                        <input type="text" name="q" id="local-searchbox" onblur="displaySearchInterPro(this);" onfocus="hideSearchInterPro(this);" value="" class="input-group-field" size="35" maxlength="2048"/>
+                        <div class="input-group-button">
+                            <input id="search_submit" class="button icon icon-functional" tabindex="2" type="submit" name="submit1" value="1" >
+                        </div>
+                    </div>
+                </fieldset>
+                <p id="example" class="small examples">
+                    Examples: <a href="/interpro/search?q=IPR020405"
+                                title="InterPro accession or a number (e.g. IPR020405 or 20405)">IPR020405</a>, <a
+                        href="/interpro/search?q=kinase" title="Free text search (e.g. Kinase)">kinase</a>, <a
+                        href="/interpro/search?q=P51587"
+                        title="UniProtKB Protein accession (e.g. P51587)">P51587</a>, <a
+                        href="/interpro/search?q=PF02932"
+                        title="Member database signature accession (e.g. PF02932)">PF02932</a>, <a
+                        href="/interpro/search?q=GO:0007165"
+                        title="GO term search (e.g. GO:0007165)">GO:0007165</a>
+                </p>
+            </form>
+
+        </div>
+        <!-- /local-search -->
+
+        <!-- local-nav -->
+        <nav >
+            <ul class="dropdown menu float-left" data-description="navigational" data-dropdown-menu>
+                
+                
+                    
+                    
+                        <li>
+                            <a href="/interpro/">Home</a>
+                        </li>
+                    
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="/interpro/search/sequence-search">Search</a>
+                        </li>
+                    
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="/interpro/release_notes.html">Release notes</a>
+                        </li>
+                    
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="/interpro/download.html">Download</a>
+                        </li>
+                    
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="/interpro/about.html">About InterPro</a>
+                        </li>
+                    
+                
+
+                
+                    
+                    
+                        <li>
+                            <a href="/interpro/training.html">Help</a>
+                        </li>
+                    
+                
+
+                
+                <li class="last">
+                    <a href="http://www.ebi.ac.uk/support/interpro-general-query">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- /local-nav -->
+
+
+        <!-- local-nav -->
+        
+            
+                
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+
+               
+               
+                  
+                      
+                       
+                   
+                  
+                
+                   
+                       
+                   
+                
+                
+
+                
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+
+
+
+                
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+
+
+
+                
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+
+                    
+                                          
+                                              
+                                                  
+                                              
+                                          
+                                          
+                                              
+                                                  
+                                              
+                                          
+                                      
+
+                
+                
+                    
+                
+
+    
+    
+    <!-- /local-nav -->
+
+    </div><!-- /masthead row  -->
+</header>
+</div> <!-- /local-masthead  -->
+</div> <!-- /data-sticky-container -->
+
+<div id="content" role="main" class="row">
+
+
+    <!-- leaf nav  -->
+    
+
+    
+    <div class="row" id="subnav-search">
+        <div class="small-12 columns">
+            <div class="panel-pane pane-block pane-menu-block-4  secondary-menu pane-menu-block">
+        <ul class="menu menu-tree-menu">
+            
+                
+                
+                    <li class="first leaf">
+                        <a href="/interpro/search/sequence-search">By sequence</a>
+                    </li>
+                
+            
+
+            
+                
+                
+                    <li class="last leaf">
+                        <a href="/interpro/search/domain-organisation">By domain architecture</a>
+                    </li>
+                
+            
+        </ul>
+        </div><!-- /secondary-menu  -->
+        </div><!-- /small-12  -->
+    </div><!-- /subnav-search  -->
+
+    
+
+    <div class="row" id="subnav-help">
+        <div class="small-12 columns">
+            <div class="panel-pane pane-block pane-menu-block-4  secondary-menu pane-menu-block">
+        <ul class="menu menu-tree-menu">
+            
+                
+                
+                    <li class="first leaf">
+                        <a href="/interpro/training.html">Training &amp; tutorials</a>
+                    </li>
+                
+            
+
+            
+            
+                
+                
+                    <li>
+                        <a href="/interpro/faqs.html">FAQs</a>
+                    </li>
+                
+            
+
+            
+                
+                
+                    <li class="last leaf">
+                        <a href="/interpro/documentation.html">Documentation</a>
+                    </li>
+                
+            
+        </ul>
+        </div><!-- /secondary menu  -->
+        </div><!-- /small-12  -->
+    </div><!-- /subnav-help  -->
+    <!-- /leaf nav  -->
+
+    <section>
+    <div class="row">
+        <div id="main-content-area" class="medium-12 columns">
+            
+
+
+
+<div class="row">
+
+
+
+
+
+
+
+<div class="medium-3 columns">
+    <div class="int-nav">
+        <ul>
+            <li>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <div class="selected">
+                Overview
+            
+        </div>
+    
+    
+
+
+            </li>
+            <li>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+            
+                <div class="menu_item">
+                    <a href="/interpro/entry/IPR007031/proteins-matched">
+                            Proteins matched</a>
+                    
+                        <span class="menu_numb">(327)</span>
+                    
+
+                </div>
+            
+        
+    
+
+
+
+                
+
+                
+            </li>
+            <li>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+            
+                <div class="menu_item">
+                    <a href="/interpro/entry/IPR007031/domain-organisations">
+                            Domain architectures</a>
+                    
+                        <span class="menu_numb">(4)</span>
+                    
+
+                </div>
+            
+        
+    
+
+
+            </li>
+
+            <li>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+                <div class="disabled">
+                        Pathways &amp; interactions
+                    
+                </div>
+            
+            
+        
+    
+
+
+            </li>
+            <li>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+            
+                <div class="menu_item">
+                    <a href="/interpro/entry/IPR007031/taxonomy">
+                            Species</a>
+                    
+
+                </div>
+            
+        
+    
+
+
+            </li>
+
+            <li>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+                <div class="disabled">
+                        Structures
+                    
+                </div>
+            
+            
+        
+    
+
+
+            </li>
+            <li>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+            
+                <div class="menu_item">
+                    <a href="/interpro/entry/IPR007031/literature">
+                            Literature</a>
+                    
+                        <span class="menu_numb">(2)</span>
+                    
+
+                </div>
+            
+        
+    
+
+
+            </li>
+            <li>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+            
+                <div class="menu_item">
+                    <a href="/interpro/entry/IPR007031/xrefs">
+                            Cross-references</a>
+                    
+                        <span class="menu_numb">(1)</span>
+                    
+
+                </div>
+            
+        
+    
+
+
+            </li>
+        </ul>
+    </div>
+</div><!-- /medium-3 -->
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Show Javascript version of the add annotation button
+        $("#addAnnotationButton").show();
+    });
+</script>
+
+<div class="medium-9 columns">
+
+
+    <div class="r_option">
+
+        <a class="exp_annot" id="addAnnotationButton"
+           href=""
+           onclick="window.open('/interpro/entry/IPR007031/add-annotation','iprcontrib','location=yes,links=no,scrollbars=no,toolbar=no,width=640,height=470'); return false;"
+           title="Add your annotation"
+           style="display: none;">
+            <span class="icon icon-functional" data-icon="e"></span>
+            Add your annotation
+        </a>
+        <noscript>
+            <a class="exp_annot" href="/interpro/entry/IPR007031/add-annotation"
+               title="Add your annotation" target="_blank">
+                <span class="icon icon-functional" data-icon="e"></span>
+                Add your annotation
+            </a>
+        </noscript>
+    </div>
+    
+    
+
+    <div class="row">
+    <div class="medium-9 columns">
+
+        <div class="Family_tab">Family</div>
+
+        <h2 class="strapline">Poxvirus VLTF3, late transcription factor <span>(IPR007031)</span></h2>
+
+        <p class="shortname">
+            Short name:
+            Poxvirus_VLTF3
+        </p>
+        
+            <h3>
+                
+                    
+                        Family relationships
+                    
+                    
+                
+            </h3>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    // Code called on page load
+                   // $("#hideLastRelationships , #lastRelationships").hide(); //hide "Fewer" button & tree portion after 7 results
+                    //$("#expandButton").show();  //Show button to expand
+                    $("#showLastRelationships").show();  //Show "More" button
+                    $(document).scrollTop(0); // Stop occasional scrolling problem seen when collapsing the tree
+
+
+                $("#showLastRelationships").click(function () {
+                            $("#showLastRelationships").hide();
+                            $("#hideLastRelationships").show();
+                            $("#lastRelationships").slideDown(500);
+                        });
+                $("#hideLastRelationships").click(function () {
+                            $("#hideLastRelationships").hide();
+                            $("#showLastRelationships").show();
+                            $("#lastRelationships").slideUp(500);
+                        });
+//                function showDiv() {
+//                    // Expand the relationship tree
+//                    $("#showLastRelationships").hide();
+//                    $("#hideLastRelationships").show();
+//                    $("#lastRelationships").slideDown(500);
+//                }
+//                function hideDiv() {
+//                    // Collapse the relationship tree
+//                    $("#hideLastRelationships").hide();
+//                    $("#showLastRelationships").show();
+//                    $("#lastRelationships").slideUp(500);
+//                }
+                });
+            </script>
+            
+                <p>None.</p>
+                
+            
+        
+
+
+        <h3>Description</h3>
+
+        <script language="javascript">
+
+
+            $(document).ready(function () {
+                
+                $("a[id]").each(function () {
+
+                    $(this).qtip({
+
+                        content:{
+                            text:$("#cite-" + $(this).attr("id"))
+                        }
+                    });
+                })
+
+
+            });
+        </script>
+
+
+        <div class="entry_desc"><p>Members of this family are approximately 26 kDa, and are involved in trans-activation of late transcription [<a href="http://europepmc.org/abstract/MED/8523544" id="1" class="ext">PMID: 8523544</a>].</p></div>
+
+        
+        
+<div class="entry_desc_qtip" style="display:none;" id="cite-1">
+Hubbs AE, Wright CF.
+<br/>
+<span class="pub-title">The A2L intermediate gene product is required for in vitro transcription from a vaccinia virus late promoter.</span><br />
+<span class="pub-name">J. Virol.</span> 70 327-31 1996</div>
+
+
+
+        
+            <h3>GO terms</h3>
+             
+             
+             
+                 
+             
+             
+             
+             
+             
+
+             
+             
+                 
+             
+             
+             
+             
+
+             
+             
+                 
+             
+             
+             
+             
+
+             
+
+            <div class="goSections">
+
+                
+                    
+                        <h4>Biological Process</h4>
+
+                        <p>
+                            <a class="ext"
+                               href="http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0046782">GO:0046782</a> regulation of viral transcription
+                            <br/>
+                        
+                        </p>
+                    
+                    
+                
+
+                
+                    
+                    
+                        <h4>Molecular Function</h4>
+
+                        <p>No terms assigned in this category.</p>
+                    
+                
+
+                
+                    
+                    
+                        <h4>Cellular Component</h4>
+
+                        <p>No terms assigned in this category.</p>
+                    
+                
+
+            </div>
+        
+    </div><!-- /medium-9 -->
+
+    <div class="medium-3 columns">
+        <div class="right-box">
+
+            <h2>Contributing signatures</h2>
+
+            <div class="feat_list">
+                Signatures from InterPro member databases are used to construct an entry.
+            </div>
+            
+                <div class="signature">
+                    <span class="puce pfam"></span><b>Pfam</b> <abbr
+                        class="icon icon-generic" data-icon="i" title="Pfam is a large collection of multiple sequence alignments and hidden Markov models covering many common protein domains."></abbr>
+                    <ul>
+                        <li>
+                            <div class="Family"></div>
+                            <a class="ext" href="http://pfam.xfam.org/family/PF04947">PF04947</a> (Pox_VLTF3)
+                        </li>
+                    </ul>
+                </div>
+            
+        </div>
+    </div><!-- /medium-3 -->
+    </div><!-- /row -->
+</div><!-- /medium-9 -->
+</div><!-- /row -->
+
+
+
+
+</div> <!--/main-content-area -->
+</div> <!--/row -->
+</section>
+</div> <!--/#content -->
+
+<footer>
+    <!-- Optional local footer  -->
+    
+        
+            
+        
+    
+    <!-- End optional local footer -->
+
+    <div id="global-footer">
+
+        <nav id="global-nav-expanded" class="row">
+
+        </nav>
+
+        <section id="ebi-footer-meta" class="row">
+
+        </section>
+
+    </div>
+
+</footer>
+
+<!-- JavaScript at the bottom for fast page loading -->
+
+<!-- Local JavaScript -->
+
+<!--Jquery ui v1.10.4  - used to create tabs -->
+<script src="/interpro/resources/js/qtip2/jquery.qtip.min.js" type="text/javascript"></script> <!-- JQuery tooltip plugin-->
+<script src="/interpro/resources/js/smoothscrol.js" type="text/javascript"></script> <!-- JQuery scroller - work only for the anchors on the same page-->
+<script src="/interpro/resources/js/common.js" type="text/javascript"></script>
+<!-- /Local JavaScript -->
+
+<!-- global JavaScript -->
+
+
+<script defer="defer" src="//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/js/cookiebanner.js"></script>
+<script defer="defer" src="//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/js/foot.js"></script>
+<script defer="defer" src="//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/js/script.js"></script>
+<!-- /global JavaScript -->
+
+<!-- The Foundation theme JavaScript -->
+<script src="//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/libraries/foundation-6/js/foundation.js"></script>
+<script src="//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/js/foundationExtendEBI.js"></script>
+<script type="text/JavaScript">$(document).foundation();</script>
+<script type="text/JavaScript">$(document).foundationExtendEBI();</script>
+<!-- /the Foundation theme JavaScript -->
+
+<script type="text/javascript">
+    var SEARCH_INTERPRO = "Search InterPro...";
+
+    function displaySearchInterPro(queryEl) {
+        if (queryEl == null) {
+            return;
+        }
+        if (queryEl.value == null || queryEl.value.trim() == "") {
+            queryEl.value = SEARCH_INTERPRO;
+        }
+    }
+
+    function hideSearchInterPro(queryEl) {
+        if (queryEl == null || queryEl.value == null) {
+            return;
+        }
+        if (queryEl.value.trim() == SEARCH_INTERPRO) {
+            queryEl.value = "";
+        }
+    }
+
+    function loaded() {
+        displaySearchInterPro(document.getElementById('local-searchbox'));
+    }
+</script>
+
+<!--Back top jQuery plugin-->
+   <script type="text/javascript">
+       $(function () {
+           $(window).scroll(function () {
+               if ($(this).scrollTop() != 0) {
+                   $('#toTop').fadeIn();
+               } else {
+                   $('#toTop').fadeOut();
+               }
+           });
+
+           $('#toTop').click(function () {
+               $('body,html').animate({scrollTop:0}, 800);
+           });
+       });
+   </script>
+
+
+  <!-- Google Analytics details... -->
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-16416265-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+
+    Modernizr.load({
+        load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+</script>
+
+<div id="toTop" class="anim"><img src="/interpro/resources/images/ico_scroll_top.png" alt="Scroll to top" ><span class="scroll anim">To top </span></div>
+</body>
+</html>
