@@ -1,0 +1,2 @@
+1.ProbeID/GeneID=probe id from microarray or gene id from RNA-seq
+2.SampleID/GsmID=sample id or GSM id from column 2

@@ -1,0 +1,12 @@
+1.mature_miRNA_id=microRNA id
+2.transcript_id=transcript id
+3.bind_num=Number of miRNA binding site
+4.gene_symbol=gene symbol
+5.g1_mean=mean expression level of a gene in group1
+6.g2_mean=mean expression level of a gene in group1
+7.Fold_change=Fold change by comparing g2 to g1
+8.log2(Fold Change)=log2 value of fold change by comparing g2 to g1
+9.p-value=p value from t.test for g2.vs.g1
+10.adj_pvalue=adjusted pvalue
+11.pubmed_id=pubmed id for validated miRNA-gene pairs;
+12.pubmed_link=link for pubmed id

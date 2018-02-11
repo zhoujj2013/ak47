@@ -1,0 +1,2 @@
+1.geneid=gene symbol from refseq
+2.sampleX=sample id we analysis from column 2

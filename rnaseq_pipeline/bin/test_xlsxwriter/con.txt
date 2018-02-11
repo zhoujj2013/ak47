@@ -1,0 +1,3 @@
+geneid	sample1	sample2	sample3
+DSFS	123	8.34	734
+SDFWE	343	98	23

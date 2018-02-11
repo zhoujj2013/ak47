@@ -1,0 +1,135 @@
+GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	ECO_ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	ASSIGNED BY	ANNOTATION EXTENSION
+UniProtKB	A0A087WNT8	Nupr1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q9WTK0|ensembl:ENSMUSP00000032961	10090	Ensembl	
+UniProtKB	A0A087WST9	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	A0A0A6YVX2	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	A0A0A6YWE3	Plagl1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	results_in_acquisition_of_features_of(CL:0000019)
+UniProtKB	A0A0U1RPB6	Nupr1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q9WTK0|ensembl:ENSMUSP00000032961	10090	Ensembl	
+UniProtKB	A0A140T8S0	Megf10	involved_in	GO:0014816	skeletal muscle satellite cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q6DIB5|ensembl:ENSMUSP00000075174	10090	Ensembl	
+UniProtKB	A2A884	Hivep3	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	A2A9A2	Dmrta2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	A2AIX5	Notch1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q01705|ensembl:ENSMUSP00000028288	10090	Ensembl	
+UniProtKB	A2AKM5	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	A2AKM6	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	A2AKM7	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	A2AKM8	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	A2AM95	Emd	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:O08579|ensembl:ENSMUSP00000002029	10090	Ensembl	
+UniProtKB	A2AQE4	Cops2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P61202|ensembl:ENSMUSP00000106090	10090	Ensembl	
+UniProtKB	A2AUC9	Klhl41	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR030571	10090	InterPro	
+UniProtKB	A2AUC9	Klhl41	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000314	IDA	PMID:22562206		10090	UniProt	
+UniProtKB	A2RSK4	Myf5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P24699|ensembl:ENSMUSP00000000445	10090	Ensembl	
+UniProtKB	B0LAB3	Plagl1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	results_in_acquisition_of_features_of(CL:0000019)
+UniProtKB	B0QZX4	Plagl1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	results_in_acquisition_of_features_of(CL:0000019)
+UniProtKB	B0QZX5	Plagl1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	results_in_acquisition_of_features_of(CL:0000019)
+UniProtKB	B7FAU5	Emd	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:O08579|ensembl:ENSMUSP00000002029	10090	Ensembl	
+UniProtKB	B7ZP38	Plagl1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	results_in_acquisition_of_features_of(CL:0000019)
+UniProtKB	D3Z2R5	Selenon	involved_in	GO:0014816	skeletal muscle satellite cell differentiation	ECO:0000315	IMP	PMID:21131290	MGI:MGI:4946396	10090	MGI	occurs_in(EMAPA:32716)
+UniProtKB	D3Z3V5	Zfp689	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q8BKK5|ensembl:ENSMUSP00000056610	10090	Ensembl	
+UniProtKB	D3Z6Z3	Foxn2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:E9Q7L6|ensembl:ENSMUSP00000107857	10090	Ensembl	
+UniProtKB	D3Z6Z3	Foxn2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	D6RFS0	Emd	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:O08579|ensembl:ENSMUSP00000002029	10090	Ensembl	
+UniProtKB	E9PYQ6	Foxn2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:E9Q7L6|ensembl:ENSMUSP00000107857	10090	Ensembl	
+UniProtKB	E9PYQ6	Foxn2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	E9Q7L6	Foxn2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	G3UW65	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	G3UWS3	Sox8	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q04886|ensembl:ENSMUSP00000025003	10090	Ensembl	
+UniProtKB	G3UX39	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	G3UXF6	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	G3UXL7	Sox8	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q04886|ensembl:ENSMUSP00000025003	10090	Ensembl	
+UniProtKB	G3UXZ0	Smyd1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P97443|ensembl:ENSMUSP00000073911	10090	Ensembl	
+UniProtKB	G3UY80	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	G3UYK4	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	G3UZ71	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	G3UZ86	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	G3UZ94	Smyd1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P97443|ensembl:ENSMUSP00000073911	10090	Ensembl	
+UniProtKB	G3V008	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	
+UniProtKB	G5E8R7	Smyd1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P97443|ensembl:ENSMUSP00000073911	10090	Ensembl	
+UniProtKB	H3BKN8	Hlf	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q8BW74|ensembl:ENSMUSP00000004051	10090	Ensembl	
+UniProtKB	H3BL91	Six4	involved_in	GO:0098528	skeletal muscle fiber differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q61321|ensembl:ENSMUSP00000036150	10090	Ensembl	
+UniProtKB	I7HJS1	Emd	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:O08579|ensembl:ENSMUSP00000002029	10090	Ensembl	
+UniProtKB	O08579	Emd	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:19720741		10090	MGI	
+UniProtKB	O08579	Emd	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000316	IGI	PMID:19720741	MGI:MGI:2385045	10090	MGI	
+UniProtKB	O35690	Phox2b	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	O35740	Cited2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	O35745	Plagl1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	results_in_acquisition_of_features_of(CL:0000019)
+UniProtKB	O54791	Maff	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	O54839	Eomes	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	O88574	Sap30	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	P01101	Fos	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	P01108	Myc	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	results_in_acquisition_of_features_of(CL:0002372)
+UniProtKB	P08046	Egr1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	P08152	Egr2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	P10085	Myod1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000303	NAS	PMID:21556048		10090	UniProt	
+UniProtKB	P10085	Myod1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	P12813	Nr4a1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	P12979	Myog	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000318	IBA	GO_REF:0000033	PANTHER:PTN000898840	10090	GO_Central	
+UniProtKB	P13405	Rb1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	P15375	Myf6	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	P24610	Pax3	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000303	NAS	PMID:21556048		10090	UniProt	
+UniProtKB	P24699	Myf5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	P27467	Wnt3a	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000316	IGI	PMID:19699733	MGI:MGI:1924828|MGI:MGI:1933114	10090	MGI	results_in_acquisition_of_features_of(CL:0000515)
+UniProtKB	P47239	Pax7	involved_in	GO:0014813	skeletal muscle satellite cell commitment	ECO:0000315	IMP	PMID:11030621	MGI:MGI:1857831	10090	MGI	occurs_in(EMAPA:35578),results_in_commitment_to(CL:0000594)
+UniProtKB	P58252	Eef2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P05197|ensembl:ENSRNOP00000041821	10090	Ensembl	
+UniProtKB	P61202	Cops2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	P97443	Smyd1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q01705	Notch1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q02650	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q04211	Btg2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q04886	Sox8	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q08369	Gata4	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000303	NAS	PMID:21556048		10090	UniProt	
+UniProtKB	Q0VEJ7	Myf6	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P15375|ensembl:ENSMUSP00000047529	10090	Ensembl	
+UniProtKB	Q2NKI2	Vax1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q32MD9	Cdon	involved_in	GO:0014816	skeletal muscle satellite cell differentiation	ECO:0000315	IMP	PMID:15572127	MGI:MGI:2653120	10090	MGI	occurs_in(EMAPA:32716),results_in_acquisition_of_features_of(CL:0000594)
+UniProtKB	Q3TF68	Btg2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q04211|ensembl:ENSMUSP00000020692	10090	Ensembl	
+UniProtKB	Q3THM8	Emd	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:O08579|ensembl:ENSMUSP00000002029	10090	Ensembl	
+UniProtKB	Q3U0G5	Maff	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:O54791|ensembl:ENSMUSP00000094076	10090	Ensembl	
+UniProtKB	Q3UQR2	Plagl1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	results_in_acquisition_of_features_of(CL:0000019)
+UniProtKB	Q3UQT9	Smyd1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P97443|ensembl:ENSMUSP00000073911	10090	Ensembl	
+UniProtKB	Q3UQW2	Plagl1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	results_in_acquisition_of_features_of(CL:0000019)
+UniProtKB	Q3V184	Klhl41	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR030571	10090	InterPro	
+UniProtKB	Q3V3N6	Cops2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P61202|ensembl:ENSMUSP00000106090	10090	Ensembl	
+UniProtKB	Q4FJW1	Atf3	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q60765|ensembl:ENSMUSP00000027941	10090	Ensembl	
+UniProtKB	Q53ZC3	Scx	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q64124|ensembl:ENSMUSP00000043668	10090	Ensembl	
+UniProtKB	Q543C3	Sox8	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q04886|ensembl:ENSMUSP00000025003	10090	Ensembl	
+UniProtKB	Q544D6	Egr1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P08046|ensembl:ENSMUSP00000069616	10090	Ensembl	
+UniProtKB	Q545Q1	Nr4a1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P12813|ensembl:ENSMUSP00000023779	10090	Ensembl	
+UniProtKB	Q60765	Atf3	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q61321	Six4	involved_in	GO:0098528	skeletal muscle fiber differentiation	ECO:0000315	IMP	PMID:21884692		10090	UniProt	
+UniProtKB	Q63943	Mef2d	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q64124	Scx	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q67FY2	Bcl9l	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000316	IGI	PMID:19699733	MGI:MGI:1924828|MGI:MGI:98956	10090	MGI	results_in_acquisition_of_features_of(CL:0000515)
+UniProtKB	Q6DIB5	Megf10	involved_in	GO:0014816	skeletal muscle satellite cell differentiation	ECO:0000266	ISO	GO_REF:0000096	UniProtKB:Q96KG7	10090	MGI	
+UniProtKB	Q6DIB5	Megf10	involved_in	GO:0014816	skeletal muscle satellite cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q96KG7|ensembl:ENSP00000274473	10090	Ensembl	
+UniProtKB	Q6DIB5	Megf10	involved_in	GO:0014816	skeletal muscle satellite cell differentiation	ECO:0000315	IMP	PMID:18056409		10090	UniProt	
+UniProtKB	Q6DVA0	Lemd2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000266	ISO	GO_REF:0000008	UniProtKB:Q8NC56	10090	MGI	
+UniProtKB	Q6DVA0	Lemd2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q8NC56|ensembl:ENSP00000293760	10090	Ensembl	
+UniProtKB	Q6DVA0	Lemd2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:19720741		10090	MGI	
+UniProtKB	Q7M6Y2	Sox11	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:20847309		10090	MGI	
+UniProtKB	Q8BKK5	Znf689	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q8BMV4	Smyd1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P97443|ensembl:ENSMUSP00000073911	10090	Ensembl	
+UniProtKB	Q8BSS2	Foxn2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q8BW74	Hlf	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q8BXP5	Ankrd33	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q8C741	Phox2b	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:O35690|ensembl:ENSMUSP00000012664	10090	Ensembl	
+UniProtKB	Q8CFN5	Mef2c	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000303	NAS	PMID:21556048		10090	UniProt	
+UniProtKB	Q8CFN5	Mef2c	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q8K0L0	Asb2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q8R2T8	Gtf3c5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q8VCR8	Mylk2	involved_in	GO:0014816	skeletal muscle satellite cell differentiation	ECO:0000315	IMP	PMID:21556048		10090	UniProt	
+UniProtKB	Q8VCR8	Mylk2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000266	ISO	GO_REF:0000096	UniProtKB:Q9H1R3	10090	MGI	
+UniProtKB	Q8VCR8	Mylk2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q9H1R3|ensembl:ENSP00000365162	10090	Ensembl	
+UniProtKB	Q8VCR8	Mylk2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000303	NAS	PMID:21556048		10090	UniProt	
+UniProtKB	Q9CR42	Ankrd1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q9CSN1	Snw1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q9D219	Bcl9	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000316	IGI	PMID:19699733	MGI:MGI:1933114|MGI:MGI:98956	10090	MGI	results_in_acquisition_of_features_of(CL:0000515)
+UniProtKB	Q9D783	Klhl40	involved_in	GO:0098528	skeletal muscle fiber differentiation	ECO:0000315	IMP	PMID:24361185		10090	MGI	
+UniProtKB	Q9D783	Klhl40	involved_in	GO:0098528	skeletal muscle fiber differentiation	ECO:0000315	IMP	PMID:25940086		10090	UniProt	
+UniProtKB	Q9DBX7	Heyl	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q9EPT3	Plagl1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	results_in_acquisition_of_features_of(CL:0000019)
+UniProtKB	Q9JLQ4	Plagl1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	results_in_acquisition_of_features_of(CL:0000019)
+UniProtKB	Q9R0X0	Med20	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q9WTK0	Nupr1	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:19723804		10090	MGI	
+UniProtKB	Q9WU40	Lemd3	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:19720741		10090	MGI	
+UniProtKB	Q9WV06	Ankrd2	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q9Z0Z7	Klf5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	Q9Z104	Hmg20b	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000315	IMP	PMID:22147266		10090	MGI	
+UniProtKB	V9GXS5	Pax5	involved_in	GO:0035914	skeletal muscle cell differentiation	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q02650|ensembl:ENSMUSP00000014174	10090	Ensembl	

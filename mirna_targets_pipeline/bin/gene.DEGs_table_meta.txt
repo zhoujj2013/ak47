@@ -1,0 +1,8 @@
+1.transcript_id=Transcript id from refSeq database(NCBI)
+2.gene_symbol=Gene symbol
+3.group1_mean=expression mean of group1
+4.group2_mean=expression mean of group2
+5.FC=Fold change
+6.logFC=log2(Fold Change)
+7.pvalue=p-value from t-test
+8.adj_pvalue=adjusted p-value

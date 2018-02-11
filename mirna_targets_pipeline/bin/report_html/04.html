@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./favicon.ico">
+
+    <title>生物信息分析报告</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html">生物信息分析报告</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">主页<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">分析结果</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="01.html">分析流程</a>
+              <a class="dropdown-item" href="02.html">差异表达基因及miRNA</a>
+              <a class="dropdown-item" href="03.html">miRNA-mRNA靶标预测</a>
+			  <a class="dropdown-item" href="04.html">miRNA-lncRNA靶标预测</a>
+			  <a class="dropdown-item" href="05.html">文献引用</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>miRNA-lncRNA靶标预测</h1>
+		<p></p>
+		<p class="lead">对于miRNA成熟体序列，我们从miRbase数据库(http://www.mirbase.org/)上下载miRNA数据，并根据差异表达miRNA id提取成熟体序列。</p>
+		<p class="lead">由于lncRNA的来源较为复杂，把差异表达lncRNA分别比对到RefSeq, Ensembl (http://www.ensembl.org/index.html), UCSC known gene (http://genome.ucsc.edu/), NCBI数据库，并从这些数据库中提取lncRNA转录本序列。</p>
+		<p class="lead">根据已经发表的研究成果，miRNA对非蛋白编码序列（lncRNA）的作用是广泛存在的，但是不知道miRNA靶向位点在lncRNA上的分布。所以扫描miRNA在lncRNA上的靶标，需要分析lncRNA的整个转录本序列。</p>
+		<p class="lead">靶标预测结果，如下：</p>
+        <p></p>
+		<p class="lead">下调miRNA调控上调lncRNA： <a href="./result/down.mirna.vs.up.lncrna.xlsx">down.mirna.vs.up.lncrna.xlsx</a></p>
+		<p class="lead">上调miRNA调控下调lncRNA： <a href="./result/up.mirna.vs.down.lncrna.xlsx">up.mirna.vs.down.lncrna.xlsx</a></p>
+		
+				<p class="lead">miRNA靶标的位置信息，如下：</p>
+		<p class="lead">下调miRNA调控上调lncRNA：<a href="./result/down.mirna.vs.up.lncRNA.bindingSite.txt">down.mirna.vs.up.lncRNA.bindingSite.txt</a></p>
+		<p class="lead">上调miRNA调控下调lncRNA：<a href="./result/up.mirna.vs.down.lncRNA.bindingSite.txt">up.mirna.vs.down.lncRNA.bindingSite.txt</a></p>
+		<p>文件格式，如下：</p>
+
+        <div style="text-align: center;"><img src="./bindingSiteExplain.png" height="75%" width="75%"/></div>
+		
+		<p class="lead">选取top10 miRNA，展示miRNA-lncRNA相互作用网络（橙色节点表示miRNA, 绿色节点表示lncRNA），如下：</p>
+		<p class="lead">下调miRNA调控上调lncRNA：</p>
+		<div style="text-align: center;"><img src="./result/down.mirna.vs.up.lncRNA.png" height="100%" width="100%"/></div>
+
+		<p class="lead">上调miRNA调控下调lncRNA：</p>
+		<div style="text-align: center;"><img src="./result/up.mirna.vs.down.lncRNA.png" height="100%" width="100%"/></div>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="./dist/js/jquery-3.2.1.slim.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./assets/js/vendor/popper.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

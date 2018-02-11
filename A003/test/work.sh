@@ -1,1 +1,1 @@
-perl extract_uniprot.pl test.dat test.outfmt6 
+perl ../bin/extract_uniprot.pl uniprot_sprot.dat blastp.outfmt6

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./favicon.ico">
+
+    <title>生物信息分析报告</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html">生物信息分析报告</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">主页<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">分析结果</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="01.html">分析流程</a>
+              <a class="dropdown-item" href="02.html">数据质控</a>
+              <a class="dropdown-item" href="03.html">数据标准化及差异表达基因检测</a>
+			  <a class="dropdown-item" href="04.html">差异表达基因GO富集分析</a>
+			  <a class="dropdown-item" href="05.html">差异表达基因KEGG富集分析</a>
+			  <a class="dropdown-item" href="06.html">表达聚类分析</a>
+			  <a class="dropdown-item" href="07.html">多样品主成分分析(PCA)</a>
+			  <a class="dropdown-item" href="08.html">其他文件</a>
+			  <a class="dropdown-item" href="09.html">文献引用</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="starter-template">
+		<h1>多样品主成分分析(PCA)</h1>
+		<p></p>
+		<p class="lead">主成分分析（Principal Component Analysis，PCA）， 是一种掌握事物主要矛盾的统计分析方法，它可以从多元事物中解析出主要影响因素，揭示事物的本质，简化复杂的问题。主成分分析试图在力保数据信息丢失最少的原则下，用较少的综合变量代替原本较多的变量，而且综合变量间互不相关。</p>
+		<p class="lead">因为原始数据的异质性较大，所以我们的PCA分析是在差异表达数据中进行的，这样可以高效利用有用的数据信息，分析各主成分的重要性。</p>
+		<p class="lead">本分析假设以差异表达基因为两组数据的主要差异，进行多样品主成分分析。如下图：</p>
+        <div style="text-align: center;"><img src="./result/pcaBarplot.png" height="90%" width="90%"/></div>
+		<p></p>
+		<p class="lead">用两个主成分（PC1, PC2）对样品进行分类：</p>
+		<div style="text-align: center;"><img src="./result/PCA2d.png" height="50%" width="50%"/></div>
+		<p class="lead">上图，红色点表示处理组（或者病人）的样品，黑色点表示正常的对照样品。如果红色点和黑色点能分别聚合在一起，说明PC1和PC2能把两组样品分开，这些基因很有可能是区分两组样品的marker。聚合的程度越高，表明这组marker越有用。反之，表明样品异质性大，无法找到marker。</p>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="./dist/js/jquery-3.2.1.slim.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./assets/js/vendor/popper.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

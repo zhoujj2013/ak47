@@ -1,0 +1,3 @@
+1.gsm_id=GSM id from GEO database;
+2.sample_id=sample id used in paper;
+3.desc=description of the sample(if exists);

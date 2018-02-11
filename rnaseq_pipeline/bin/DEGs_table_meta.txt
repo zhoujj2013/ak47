@@ -1,0 +1,7 @@
+1.GeneID=gene symbol
+2.group1_mean=expression mean of group1
+3.group2_mean=expression mean of group2
+4.FC=Fold change
+5.logFC=log2(Fold Change)
+6.pvalue=p-value from t-test
+7.adj_pvalue=adjusted p-value

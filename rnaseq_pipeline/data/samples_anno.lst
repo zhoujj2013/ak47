@@ -1,0 +1,42 @@
+gsm_id	sample_id	desc
+GSM1616945	22_NIBD_NI	Normal colon biopsy, female age 53 
+GSM1616946	23_NIBD_NI	Normal colon acquired during Hartmann reversal after colon cancer, male age 52 
+GSM1616947	25_NIBD_NI	Normal colon biopsy acquired during surgery for diverticulitis,female age 60 
+GSM1616948	27_NIBD_NI	Normal colon acquired during surgery for diverticulitis, male age 70 
+GSM1616949	30_NIBD_NI	Normal colon biopsy acquired during surgery for colon cancer, female age 82 
+GSM1616950	31_NIBD_NI	Normal colon biopsy acquired during surgery for colon cancer, male age 44 
+GSM1616951	32_NIBD_NI	Normal colon acquired during surgery for colon cancer, male age 44 
+GSM1616952	36_NIBD_NI	Normal colon acquired during surgery for colonic inertia, female age 41 
+GSM1616953	39_NIBD_NI	Normal colon acquired during surgery for colon cancer, male age 52 
+GSM1616954	42_NIBD_NI	Normal colon acquired during surgery for large polyp, male age 65 
+GSM1616955	43_NIBD_NI	Normal colon acquired during surgery for colonic inertia, female age 45 
+GSM1616956	48_NIBD_NI	Normal colon acquired during surgery for adenoma, male age 70 
+GSM1616957	49_NIBD_NI	Normal colon acquired during surgery for adenoma, male age 62 
+GSM1616958	50_NIBD_NI	Normal colon acquired during surgery for small intestine neuroendocrine tumor, female age 49 
+GSM1616959	20_CD_NI_B2	B2/stricturing Crohn's disease 
+GSM1616960	21_CD_NI_B2	B2/stricturing Crohn's disease 
+GSM1616961	29_CD_NI_B3	B3/penetrating Crohn's disease 
+GSM1616962	405_CD_NI_B1	B1/non-strituring, non-penetrating Crohn's disease 
+GSM1616963	407_CD_NI_B3	B3/penetrating Crohn's disease 
+GSM1616964	408_CD_NI_B1	B1/non-strituring, non-penetrating Crohn's disease 
+GSM1616965	413_CD_NI_B1	B1/non-strituring, non-penetrating Crohn's disease 
+GSM1616966	420_CD_NI_B2	B2/stricturing Crohn's disease 
+GSM1616967	422_CD_NI_B2	B2/stricturing Crohn's disease 
+GSM1616968	424_CD_NI_B3	B3/penetrating Crohn's disease 
+GSM1616969	429_CD_NI_B1	B1/non-strituring, non-penetrating Crohn's disease 
+GSM1616970	431_CD_NI_B1	B1/non-strituring, non-penetrating Crohn's disease 
+GSM1616971	433_CD_NI_B1	B1/non-strituring, non-penetrating Crohn's disease 
+GSM1616972	434_CD_NI_B3	B3/penetrating Crohn's disease 
+GSM1616973	440_CD_NI_B2	B2/stricturing Crohn's disease 
+GSM1616974	450_CD_NI_B3	B3/penetrating Crohn's disease 
+GSM1616975	51_CD_NI_B2	B2/stricturing Crohn's disease 
+GSM1616976	54_CD_NI_B1	B1/non-strituring, non-penetrating Crohn's disease 
+GSM1616977	62_CD_NI_B3	B3/penetrating Crohn's disease 
+GSM1616978	63_CD_NI_B1	B1/non-strituring, non-penetrating Crohn's disease 
+GSM1616979	64_CD_NI_B3	B3/penetrating Crohn's disease 
+GSM1616980	407_CD_IF_B3	inflamed region of patient with B3/penetrating Crohn's disease 
+GSM1616981	408_CD_IF_B1	inflamed region of patient with B1/non-stricturing, non-penetrating Crohn's disease 
+GSM1616982	413_CD_IF_B1	inflamed region of patient with B1/non-stricturing, non-penetrating Crohn's disease 
+GSM1616983	431_CD_IF_B1	inflamed region of patient with B1/non-stricturing, non-penetrating Crohn's disease 
+GSM1616984	434_CD_IF_B3	inflamed region of patient with B3/penetrating Crohn's disease 
+GSM1616985	440_CD_IF_B2	inflamed region of patient with B2/stricturing Crohn's disease 

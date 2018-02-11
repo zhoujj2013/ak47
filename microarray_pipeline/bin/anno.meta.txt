@@ -1,0 +1,13 @@
+1.Category=GO or PATHWAY category
+2.Count=gene number assigned to this category
+3.%=percentage of gene assigned to this category
+4.Pvalue=p-value from hypergeometric test
+5.List Total=gene number assigned to all categories
+6.Pop Hits=all gene number assigned to this category in specific species
+7.Pop Total=all gene number assigned to all categories in specific species
+8.Fold Enrichment=Fold enrichment in gene number
+9.Bonferroni=Bonferroni adjusted p-value
+10.Benjamini=Benjamini adjusted p-value
+11.FDR=False discovery rate
+12.Term=Category description
+13.Genes=Gene list assigned to this category

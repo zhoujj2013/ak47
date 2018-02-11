@@ -1,0 +1,6 @@
+1.ID=probe id from microarry
+2.adj.P.Val=adjusted p-value
+3.P.Value=raw p-value
+4.logFC=Fold change between 2 groups
+5.Gene.symbol=gene symbol from refSeq
+6.Gene.title=description of gene
